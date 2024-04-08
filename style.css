@@ -17,14 +17,29 @@
     height: 550px;
     border:1px dashed rgb(255, 254, 254);
     display: flex;
-    align-items: flex-start;
+    align-items:center;
     justify-content: center;
+    flex-direction: column;
+    gap: 35px;
 
 
 }
 p{
     color:#F4F9E9 ;
-    margin-top: 15px;
+    position: relative;
+    top:-35%;
+    left: 0;
     font-size: 26px;
     font-weight: 400;
+}
+#bookNumber{
+    background: #284B63;
+    width: 50%;
+    height: 55px;
+    border: 1px dashed #EEF0EB;
+    border-radius: 6px;
+}
+#bookNumber::placeholder{
+    position: relative;
+    left: 17%;
 }
