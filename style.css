@@ -4,8 +4,10 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(90deg, hsla(180, 13%, 58%, 1) 0%, hsla(335, 16%, 61%, 1) 100%);
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #153243;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,5 +16,15 @@ body{
     width: 550px;
     height: 550px;
     border:1px dashed rgb(255, 254, 254);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
+
+}
+p{
+    color:#F4F9E9 ;
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 400;
 }
